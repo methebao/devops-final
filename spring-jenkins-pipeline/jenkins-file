@@ -1,5 +1,6 @@
 node {
     stage 'Clone the project'
+    git 'https://github.com/methebao/devops-final.git'
 
 
     dir('spring-jenkins-pipeline') {
